@@ -2,8 +2,8 @@
   const lang = navigator.language || navigator.userLanguage;
 
   if (lang.startsWith("ko")) {
-    window.location.href = "/ko/";
+    window.location.href = "./ko/";
   } else {
-    window.location.href = "/en/";
+    window.location.href = "./en/";
   }
 })();
